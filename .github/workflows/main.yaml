@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v1 # action do repositório de outra pessoa
-      - uses: brunocouty/test-github-actions/.github/actions/composer
+      - uses: ./.github/actions/composer
