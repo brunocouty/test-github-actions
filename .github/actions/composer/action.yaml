@@ -1,5 +1,5 @@
 name: 'composer-install'
-description: "Runs php action composer"
+description: 'Runs php action composer'
 run:
     using: 'Docker'
     image: 'Dockerfile'
