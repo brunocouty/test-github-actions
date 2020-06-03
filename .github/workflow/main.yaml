@@ -1,0 +1,11 @@
+# Para cada workflow, é recomendado que você dê um name.
+name: Laravel Workflow
+# push || [push, pull_request, ...]
+on: push
+
+jobs:
+  build:
+    name: Laravel Build
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v1 # action do repositório de outra pessoa
