@@ -8,5 +8,6 @@ jobs:
     name: Laravel Build
     runs-on: ubuntu-18.04
     steps:
-      - uses: actions/checkout@v1 # action do repositório de outra pessoa
-      - uses: ./.github/actions/composer
+    - uses: actions/checkout@v1 # action do repositório de outra pessoa
+    - name: Composer
+      uses: ./.github/actions/composer
